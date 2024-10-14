@@ -1,0 +1,1792 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add cliente",
+        "content_type": 7,
+        "codename": "add_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change cliente",
+        "content_type": 7,
+        "codename": "change_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete cliente",
+        "content_type": 7,
+        "codename": "delete_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view cliente",
+        "content_type": 7,
+        "codename": "view_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add empleado",
+        "content_type": 8,
+        "codename": "add_empleado"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change empleado",
+        "content_type": 8,
+        "codename": "change_empleado"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete empleado",
+        "content_type": 8,
+        "codename": "delete_empleado"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view empleado",
+        "content_type": 8,
+        "codename": "view_empleado"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add medicamento",
+        "content_type": 9,
+        "codename": "add_medicamento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change medicamento",
+        "content_type": 9,
+        "codename": "change_medicamento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete medicamento",
+        "content_type": 9,
+        "codename": "delete_medicamento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view medicamento",
+        "content_type": 9,
+        "codename": "view_medicamento"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add proveedor",
+        "content_type": 10,
+        "codename": "add_proveedor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change proveedor",
+        "content_type": 10,
+        "codename": "change_proveedor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete proveedor",
+        "content_type": 10,
+        "codename": "delete_proveedor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view proveedor",
+        "content_type": 10,
+        "codename": "view_proveedor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add farmacia",
+        "content_type": 11,
+        "codename": "add_farmacia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change farmacia",
+        "content_type": 11,
+        "codename": "change_farmacia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete farmacia",
+        "content_type": 11,
+        "codename": "delete_farmacia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view farmacia",
+        "content_type": 11,
+        "codename": "view_farmacia"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add inventario",
+        "content_type": 12,
+        "codename": "add_inventario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change inventario",
+        "content_type": 12,
+        "codename": "change_inventario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete inventario",
+        "content_type": 12,
+        "codename": "delete_inventario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view inventario",
+        "content_type": 12,
+        "codename": "view_inventario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add categoria",
+        "content_type": 13,
+        "codename": "add_categoria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change categoria",
+        "content_type": 13,
+        "codename": "change_categoria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete categoria",
+        "content_type": 13,
+        "codename": "delete_categoria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view categoria",
+        "content_type": 13,
+        "codename": "view_categoria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add pedido",
+        "content_type": 14,
+        "codename": "add_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change pedido",
+        "content_type": 14,
+        "codename": "change_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete pedido",
+        "content_type": 14,
+        "codename": "delete_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view pedido",
+        "content_type": 14,
+        "codename": "view_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add receta",
+        "content_type": 15,
+        "codename": "add_receta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change receta",
+        "content_type": 15,
+        "codename": "change_receta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete receta",
+        "content_type": 15,
+        "codename": "delete_receta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view receta",
+        "content_type": 15,
+        "codename": "view_receta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add venta",
+        "content_type": 16,
+        "codename": "add_venta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change venta",
+        "content_type": 16,
+        "codename": "change_venta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete venta",
+        "content_type": 16,
+        "codename": "delete_venta"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view venta",
+        "content_type": 16,
+        "codename": "view_venta"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$JhSEacHulOXzClmFeqR6eA$GOhIVYniNcLmTMqpYIsWUpO+TmB4kkSGZFfr+GXrpzs=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "antero",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-10-14T22:17:10.548",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 1,
+    "fields": {
+        "nombre": "Wish thousand performance area control kind he tree. Democrat fire close example.",
+        "direccion": "Use big pattern son. Economy unit take author.\nWorry ability see gas nothing foreign wonder war. Than mouth already.\nInterest keep do so. Too section whether concern hotel soldier.",
+        "telefono": "Tough month.",
+        "email": "markthomas@example.com"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 2,
+    "fields": {
+        "nombre": "Rest different course staff clearly work. If cover environmental catch follow individual.",
+        "direccion": "Though task Mrs collection hope back production. Model image worker cover.\nAgainst executive out resource leader protect. Short for economy town.",
+        "telefono": "Relationship.",
+        "email": "carolsanders@example.net"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 3,
+    "fields": {
+        "nombre": "Keep side space describe can resource. Good plant former. Character soon early common end affect.",
+        "direccion": "Way four ever address. Draw issue someone consider.\nAdmit once road child country. So note begin color bed that.",
+        "telefono": "Republican be.",
+        "email": "anthonymccarthy@example.net"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 4,
+    "fields": {
+        "nombre": "Relate situation official. Result out generation pull coach before share.",
+        "direccion": "Section reveal job once. Available civil seat really happy.\nFive build five sometimes particularly your begin agreement. Scene wall serious cell doctor.\nStage subject cause hear parent.",
+        "telefono": "Purpose.",
+        "email": "shannonfletcher@example.org"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 5,
+    "fields": {
+        "nombre": "What ground democratic. Guy art cover. Sit at threat worry easy.",
+        "direccion": "History help without performance relate activity especially. Win unit tough yourself father team. Over modern four put yes necessary effect continue.",
+        "telefono": "Red western.",
+        "email": "johnsonkelly@example.com"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 6,
+    "fields": {
+        "nombre": "Certainly bill spend. Analysis guess it performance culture increase same.",
+        "direccion": "Total coach trouble she Congress. Type those go still second me. Something different economic meeting traditional agree interest.",
+        "telefono": "Rather ready.",
+        "email": "pamelajohnson@example.net"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 7,
+    "fields": {
+        "nombre": "Itself choice catch.",
+        "direccion": "West front tell become law.\nFull until way call buy cultural. Mother clear society soldier behavior store fast collection.\nQuickly game dream because. Certainly fast so yet go shoulder would while.",
+        "telefono": "Around make.",
+        "email": "nicole00@example.net"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 8,
+    "fields": {
+        "nombre": "Wish rest quite own against compare. Wide later itself away order use.",
+        "direccion": "Theory economic try. Education example executive continue age. Together commercial ahead democratic police product smile sort.",
+        "telefono": "Reveal assume.",
+        "email": "jacob97@example.com"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 9,
+    "fields": {
+        "nombre": "People medical tonight we left interesting source. Will speech hundred decide everything.",
+        "direccion": "There avoid per cold. Debate likely since clear.\nBecause pressure summer drug. Building Democrat reduce article plant.\nWorry institution simple sea task. Hear far short everyone at parent.",
+        "telefono": "Model.",
+        "email": "terricobb@example.com"
+    }
+},
+{
+    "model": "farmacia.proveedor",
+    "pk": 10,
+    "fields": {
+        "nombre": "Modern yard cup he speak. Close assume produce bank. Recognize collection think.",
+        "direccion": "Two decision machine strategy dream. Gun try poor value begin.\nTruth old wife grow.\nAway serve husband cut crime ahead support its. Cost market according pass film.",
+        "telefono": "Pick large.",
+        "email": "shelly46@example.org"
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 1,
+    "fields": {
+        "nombre": "Change speech those security send. Exactly speak information practice determine before road.",
+        "apellido": "Together already also pass official summer.",
+        "direccion": "Nothing past then institution door. Buy your four free everyone structure medical whatever. Discover next skill call way.\nFast pressure teach actually subject fact. Adult window interesting discover.",
+        "email": "adrian43@example.net",
+        "telefono": "Full action."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 2,
+    "fields": {
+        "nombre": "Summer onto current Mr discover year. Magazine answer recognize good million.",
+        "apellido": "Success wait water of.",
+        "direccion": "Morning support idea character million. Change listen heavy need alone sport. Eight focus run man anyone fund.",
+        "email": "sarahgarcia@example.com",
+        "telefono": "Cold back free."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 3,
+    "fields": {
+        "nombre": "Just bed five yes. Second film memory minute up identify table.",
+        "apellido": "Attention pass chair crime. Majority consumer charge require activity coach. Last key party.",
+        "direccion": "Use concern concern make lay. City sit none everything finally talk leave. Politics hit seven light former.\nTurn shoulder or. Send imagine kind phone. Democratic pretty central per check camera mind.",
+        "email": "hanthony@example.net",
+        "telefono": "Eat."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 4,
+    "fields": {
+        "nombre": "Require couple stop continue. Ten key month few. Manage today network hear great Mrs person theory.",
+        "apellido": "More mother arrive try degree reflect his. Quality can civil everyone rest community.",
+        "direccion": "Skin development test. Put people economy produce themselves.\nAssume election once discover north. Old success seven then Mr why. They smile institution financial for leader continue.",
+        "email": "ferrelljoseph@example.net",
+        "telefono": "Star same."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 5,
+    "fields": {
+        "nombre": "Politics say bank institution three per. Travel gun former stage some skin.",
+        "apellido": "Short president by among list.",
+        "direccion": "Difficult response store head none. Relate like large. Church opportunity should catch everyone. Late today project lawyer say.",
+        "email": "victoriamaddox@example.org",
+        "telefono": "Together."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 6,
+    "fields": {
+        "nombre": "Crime discussion miss certain old. Instead study right. Technology blood rise write every.",
+        "apellido": "Here laugh father officer toward bit tough how. Help director man a.",
+        "direccion": "Draw painting court approach machine show just. Family daughter what likely.\nProvide own career maybe language field. Poor subject professor face week offer fill. Thousand kind west method.",
+        "email": "gail17@example.org",
+        "telefono": "Affect may dog."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 7,
+    "fields": {
+        "nombre": "Wall new of crime successful. Marriage radio senior deal week inside yet.",
+        "apellido": "Mouth any skin cut every reduce hot. Member conference key threat same song.",
+        "direccion": "Little support radio lawyer picture. Contain treatment national list.\nTable dinner could hear attack relationship. Word live yet exist. Rather yeah should site contain.",
+        "email": "bjordan@example.com",
+        "telefono": "Lose audience."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 8,
+    "fields": {
+        "nombre": "What most heavy reality recent. Action admit capital few reason.",
+        "apellido": "Floor painting set sure mission degree member leader. Grow west down defense medical space.",
+        "direccion": "Number interest full above kid real huge evening. Always best information back two this.\nAmong out speech. Agent off goal best. Program explain never vote bring.",
+        "email": "andrea26@example.net",
+        "telefono": "Practice test."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 9,
+    "fields": {
+        "nombre": "Daughter lay will. Eye care show respond child know.",
+        "apellido": "House four ahead seat record. Congress past material this.",
+        "direccion": "Why face foreign a. Force act fight organization later dream whom magazine. Loss admit represent effect adult money himself.",
+        "email": "nixontony@example.org",
+        "telefono": "Yeah gun data."
+    }
+},
+{
+    "model": "farmacia.cliente",
+    "pk": 10,
+    "fields": {
+        "nombre": "Good especially training fill. Social research practice forget. Else reach plan ask long her.",
+        "apellido": "Almost wish simply loss especially bit. Mr teacher resource same. Member however important fight.",
+        "direccion": "Think control maybe issue. Bring animal manage cut cell item century.\nLarge receive benefit red office man or. Spring college those activity.",
+        "email": "brenda18@example.com",
+        "telefono": "Idea suggest."
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 1,
+    "fields": {
+        "nombre": "Focus situation carry within across western. Without begin reflect agreement team weight clear.",
+        "descripcion": "Character wear and exist test pay. Staff knowledge beat hot defense into. Officer here beat heart. Environmental mission born if.\nRest TV cup figure. Worry everyone sense make morning.",
+        "precio": "0.08",
+        "stock": 28875,
+        "fecha_caducidad": "1997-12-09",
+        "proveedor": 9
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 2,
+    "fields": {
+        "nombre": "Eat almost song. Last man security fire. College determine realize significant popular anyone.",
+        "descripcion": "Require minute whatever build exist series card.\nReveal drop within four. Series lose our cup garden several. Series shake might into.",
+        "precio": "0.63",
+        "stock": 20989,
+        "fecha_caducidad": "2021-05-09",
+        "proveedor": 10
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 3,
+    "fields": {
+        "nombre": "Result behind game two.",
+        "descripcion": "Large indicate that difficult build. Purpose just industry bad entire. Mr mission important occur agent.",
+        "precio": "1.00",
+        "stock": 3427,
+        "fecha_caducidad": "1997-06-13",
+        "proveedor": 9
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 4,
+    "fields": {
+        "nombre": "Kind yes seven process exactly turn value. They loss single by end high economic Republican.",
+        "descripcion": "Agree dinner each rate admit. Visit hold work race. Conference require than should hundred sound bill power.\nEnergy can most rule what peace.",
+        "precio": "0.43",
+        "stock": 7117,
+        "fecha_caducidad": "1997-10-13",
+        "proveedor": 8
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 5,
+    "fields": {
+        "nombre": "Run exist professor other safe. Approach enjoy firm push four only energy.",
+        "descripcion": "Record industry glass several myself. Successful step continue animal language. Tell age though nothing eight measure. Religious degree situation participant whose identify.",
+        "precio": "0.52",
+        "stock": 693,
+        "fecha_caducidad": "2024-09-22",
+        "proveedor": 4
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 6,
+    "fields": {
+        "nombre": "Interesting citizen trip discuss those impact. Bit doctor without soon poor region alone.",
+        "descripcion": "Guess light else evening term. Operation media section figure happy. Page true television explain former smile.",
+        "precio": "0.24",
+        "stock": 22704,
+        "fecha_caducidad": "2018-01-20",
+        "proveedor": 4
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 7,
+    "fields": {
+        "nombre": "Use modern possible reason enter. Computer increase security entire. Sure bank stock.",
+        "descripcion": "Guess hold prevent establish usually. Whole summer them unit imagine.\nFather old choice trial among cause. Agreement she law.\nSuccessful population have drug them hold. Work nature Mrs table.",
+        "precio": "0.16",
+        "stock": 4851,
+        "fecha_caducidad": "2020-11-06",
+        "proveedor": 2
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 8,
+    "fields": {
+        "nombre": "Out fall stay wall water arrive them. Next administration series natural study.",
+        "descripcion": "Only nature summer other painting. Rather leg good pattern campaign.",
+        "precio": "0.93",
+        "stock": 8196,
+        "fecha_caducidad": "2010-06-04",
+        "proveedor": 1
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 9,
+    "fields": {
+        "nombre": "Himself both name popular public collection course. Hotel control set card anyone.",
+        "descripcion": "Daughter start democratic herself election. Exactly gun other who would interesting compare.",
+        "precio": "0.65",
+        "stock": 954,
+        "fecha_caducidad": "2017-09-15",
+        "proveedor": 10
+    }
+},
+{
+    "model": "farmacia.medicamento",
+    "pk": 10,
+    "fields": {
+        "nombre": "Without treatment scene customer hair hand detail. Quickly save reveal successful lawyer.",
+        "descripcion": "Plant measure let group. Chair commercial state simple city decade fight. Yourself throw reality feel.\nListen meeting start performance where discuss. Cut might happen center.",
+        "precio": "0.87",
+        "stock": 1671,
+        "fecha_caducidad": "1987-02-14",
+        "proveedor": 6
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 1,
+    "fields": {
+        "cliente": 10,
+        "descripcion": "Important Congress poor government. Citizen high business message break forward sea conference. Sense hand travel box free past bag. Clear after character interest food floor.",
+        "nombre_compania": "Standard throughout should throughout moment hard magazine. Race support because young.",
+        "fecha_emision": "2022-03-08",
+        "fecha_caducidad": "2020-02-15"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 2,
+    "fields": {
+        "cliente": 1,
+        "descripcion": "Teacher language time weight. Fill new possible ok.\nHour picture almost sit item. Per include service how. Reduce forward main some sing.",
+        "nombre_compania": "Return bag write. Pass poor possible lead way give contain.",
+        "fecha_emision": "1988-09-11",
+        "fecha_caducidad": "2011-02-26"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 3,
+    "fields": {
+        "cliente": 8,
+        "descripcion": "Wait newspaper position dark different.\nLet American test give travel national. Cost son religious success there.\nCommunity lawyer onto free. News east this answer ready.",
+        "nombre_compania": "Allow raise stage. Executive thing size affect ask across. Mrs decision between together.",
+        "fecha_emision": "1998-08-24",
+        "fecha_caducidad": "1998-02-26"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 4,
+    "fields": {
+        "cliente": 9,
+        "descripcion": "Girl us whether add. Magazine scientist across task face front environmental. What first movement second.\nSouth movie institution trade. Fast institution sound usually easy because.",
+        "nombre_compania": "Live get how candidate different offer. Act share drive produce live.",
+        "fecha_emision": "2017-12-25",
+        "fecha_caducidad": "2014-02-08"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 5,
+    "fields": {
+        "cliente": 5,
+        "descripcion": "Own remain so bank assume. Natural owner civil hour whatever dream.\nCivil player inside environmental there pattern than. Save popular usually law.",
+        "nombre_compania": "Only subject not money common process son. Guess way myself phone.",
+        "fecha_emision": "1979-11-24",
+        "fecha_caducidad": "2019-10-07"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 6,
+    "fields": {
+        "cliente": 3,
+        "descripcion": "Many interest company decide. Spend avoid benefit. Me product future price some allow.\nNational future ago kid. Look TV mother loss reality.",
+        "nombre_compania": "Very system effect garden special. Republican myself detail both.",
+        "fecha_emision": "1988-08-21",
+        "fecha_caducidad": "1984-05-04"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 7,
+    "fields": {
+        "cliente": 4,
+        "descripcion": "Develop against window maybe mission. Page yes bring hotel vote. East question best discussion other.",
+        "nombre_compania": "Dog official general mouth. Authority opportunity yes here carry well.",
+        "fecha_emision": "1976-04-22",
+        "fecha_caducidad": "2019-03-09"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 8,
+    "fields": {
+        "cliente": 6,
+        "descripcion": "Myself point history parent market make radio everything. Wrong official challenge ground. Because Democrat serious paper cup civil maybe.",
+        "nombre_compania": "Improve station authority democratic cause want. Record actually not respond shake give.",
+        "fecha_emision": "2021-04-24",
+        "fecha_caducidad": "1981-05-22"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 9,
+    "fields": {
+        "cliente": 7,
+        "descripcion": "Study hour well. Process get put police imagine food Congress arrive. Economic data group knowledge take know left. Main claim structure tough without.",
+        "nombre_compania": "Quite return exactly traditional least provide. Family mention with drop range be Mr.",
+        "fecha_emision": "1992-08-03",
+        "fecha_caducidad": "2007-06-24"
+    }
+},
+{
+    "model": "farmacia.receta",
+    "pk": 10,
+    "fields": {
+        "cliente": 2,
+        "descripcion": "Talk know open including. Often large its article.\nForce short team score improve tell among. Beautiful two radio class low early campaign fall.",
+        "nombre_compania": "Two her reveal well call. Report Democrat shake deal same. Word smile pay safe collection whether.",
+        "fecha_emision": "1990-04-30",
+        "fecha_caducidad": "2002-07-21"
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 1,
+    "fields": {
+        "cliente": 6,
+        "fecha_entrega": "1987-09-07",
+        "cantidad": 29589,
+        "precio": "0.63",
+        "email_farmacia": "usnyder@example.com",
+        "medicamentos": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 2,
+    "fields": {
+        "cliente": 7,
+        "fecha_entrega": "1974-04-14",
+        "cantidad": 2525,
+        "precio": "0.33",
+        "email_farmacia": "jacob65@example.net",
+        "medicamentos": [
+            5
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 3,
+    "fields": {
+        "cliente": 7,
+        "fecha_entrega": "1974-11-12",
+        "cantidad": 30508,
+        "precio": "0.81",
+        "email_farmacia": "emily26@example.org",
+        "medicamentos": [
+            1
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 4,
+    "fields": {
+        "cliente": 7,
+        "fecha_entrega": "2000-06-16",
+        "cantidad": 11979,
+        "precio": "0.75",
+        "email_farmacia": "david40@example.org",
+        "medicamentos": [
+            2,
+            7,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 5,
+    "fields": {
+        "cliente": 7,
+        "fecha_entrega": "1997-03-05",
+        "cantidad": 27959,
+        "precio": "0.42",
+        "email_farmacia": "cgonzales@example.org",
+        "medicamentos": [
+            4,
+            5,
+            8
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 6,
+    "fields": {
+        "cliente": 3,
+        "fecha_entrega": "1998-07-13",
+        "cantidad": 28359,
+        "precio": "0.21",
+        "email_farmacia": "zgeorge@example.net",
+        "medicamentos": [
+            4
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 7,
+    "fields": {
+        "cliente": 8,
+        "fecha_entrega": "2014-12-05",
+        "cantidad": 25530,
+        "precio": "0.66",
+        "email_farmacia": "acamacho@example.org",
+        "medicamentos": [
+            5,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 8,
+    "fields": {
+        "cliente": 10,
+        "fecha_entrega": "1998-06-23",
+        "cantidad": 13586,
+        "precio": "0.84",
+        "email_farmacia": "phillipssophia@example.net",
+        "medicamentos": [
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 9,
+    "fields": {
+        "cliente": 8,
+        "fecha_entrega": "1979-10-27",
+        "cantidad": 9227,
+        "precio": "0.68",
+        "email_farmacia": "crystal32@example.net",
+        "medicamentos": [
+            5
+        ]
+    }
+},
+{
+    "model": "farmacia.venta",
+    "pk": 10,
+    "fields": {
+        "cliente": 8,
+        "fecha_entrega": "1990-10-11",
+        "cantidad": 14769,
+        "precio": "0.40",
+        "email_farmacia": "patrick83@example.com",
+        "medicamentos": [
+            6,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 1,
+    "fields": {
+        "nombre": "Per investment save address visit other behavior company.",
+        "apellido": "Staff quite Congress cell.",
+        "cargo": "My think time lawyer probably reduce.",
+        "sueldo": "0.63"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 2,
+    "fields": {
+        "nombre": "Yourself feel effort just. Remain guy energy money why.",
+        "apellido": "Blood top major according give black. Student bring president trade mind somebody.",
+        "cargo": "Any figure indeed north sport.",
+        "sueldo": "0.83"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 3,
+    "fields": {
+        "nombre": "Seek partner drop whose shoulder.",
+        "apellido": "Represent assume citizen decide way. Available attack scientist statement. Its collection word.",
+        "cargo": "Movie source hundred world see baby bit.",
+        "sueldo": "0.89"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 4,
+    "fields": {
+        "nombre": "We reveal base seem last reveal since. Budget card car when should wear remain.",
+        "apellido": "Tax those mention letter yourself.\nDebate seven future pass. Great share require wall.",
+        "cargo": "Budget wear article once accept.",
+        "sueldo": "0.79"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 5,
+    "fields": {
+        "nombre": "Difficult choice themselves agency. Range story with their simple practice offer.",
+        "apellido": "Government meeting cell himself remember important. Will when brother among modern.",
+        "cargo": "World condition pattern quite until.",
+        "sueldo": "0.76"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 6,
+    "fields": {
+        "nombre": "Room through than source. Easy that list. Near reason recognize health goal.",
+        "apellido": "Agent tend owner democratic guess drug. Issue situation west anything able benefit.",
+        "cargo": "Government hour author prepare start.",
+        "sueldo": "0.49"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 7,
+    "fields": {
+        "nombre": "Apply indicate understand marriage deep.",
+        "apellido": "Television suffer traditional well. Force serious benefit unit election mind.",
+        "cargo": "A next rule page guess.",
+        "sueldo": "0.12"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 8,
+    "fields": {
+        "nombre": "Interest enjoy eye decade a.\nSign building speech middle. Cost station evidence whether.",
+        "apellido": "Girl include total a improve find. Thousand here move court leg side almost.",
+        "cargo": "Past do final wear writer.",
+        "sueldo": "0.71"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 9,
+    "fields": {
+        "nombre": "Large truth realize identify worry. Difference no score throw add occur.",
+        "apellido": "Star health of station evening. Final girl day modern. Late time debate occur worry style worry.",
+        "cargo": "Herself teach important inside economy recent.",
+        "sueldo": "0.97"
+    }
+},
+{
+    "model": "farmacia.empleado",
+    "pk": 10,
+    "fields": {
+        "nombre": "Short floor program training. Understand big within why fly.",
+        "apellido": "Personal along field business. Price seat piece ever husband away play.",
+        "cargo": "Research enough it sing yard.",
+        "sueldo": "0.99"
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 1,
+    "fields": {
+        "nombre": "Tax democratic sport but. Same my head.",
+        "direccion": "The fact kind. Lose mission go bit visit church.\nLike century land check reason. Executive yourself your certain.\nRelate oil would cup guy. Stop measure garden partner.",
+        "telefono": "Civil live.",
+        "email": "justinjohnson@example.net",
+        "propietario": 2,
+        "empleados": [
+            1
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 2,
+    "fields": {
+        "nombre": "Almost art finish.",
+        "direccion": "Tree agree property such my dog. Past strong hope law agent him.\nAllow laugh half term major. Very economy act wear.\nStand attack state in finally. Race son require form three responsibility brother.",
+        "telefono": "Power you.",
+        "email": "nicolas54@example.org",
+        "propietario": 7,
+        "empleados": [
+            5
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 3,
+    "fields": {
+        "nombre": "Cost pull blood someone. Food significant raise understand. Rock body foot range build nature.",
+        "direccion": "Collection against specific raise note stuff. Activity call sister. Provide scene require position country.\nVote glass agreement fast chance serve. Arm character consumer become.",
+        "telefono": "Station.",
+        "email": "cweber@example.org",
+        "propietario": 10,
+        "empleados": [
+            7
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 4,
+    "fields": {
+        "nombre": "Fund young mouth pick we play couple wish. Task rest road upon eat bit friend.",
+        "direccion": "Knowledge scene policy fall foot but candidate. Boy something enjoy account method quickly.\nSea around present teach some Congress. It available eye do space.",
+        "telefono": "Record kind.",
+        "email": "david85@example.org",
+        "propietario": 4,
+        "empleados": [
+            1,
+            3,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 5,
+    "fields": {
+        "nombre": "Security by all what fill. Data outside eye statement seat.\nLikely product word its into can.",
+        "direccion": "Listen hit six happen. Scientist thousand to enjoy owner political.\nTogether catch project my power. Media world staff reason team. Either science consumer provide.",
+        "telefono": "Note different.",
+        "email": "april44@example.com",
+        "propietario": 8,
+        "empleados": [
+            6,
+            9
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 6,
+    "fields": {
+        "nombre": "Concern that travel large fear can.\nSingle history heavy at. Century skin away great.",
+        "direccion": "Oil show affect power. Red later her both. Upon low condition ask direction degree country since.",
+        "telefono": "Sell front.",
+        "email": "pinedanancy@example.com",
+        "propietario": 1,
+        "empleados": [
+            8,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 7,
+    "fields": {
+        "nombre": "Resource kid town particular. Technology never raise high heart able drop.",
+        "direccion": "Management point example oil forward woman. Experience response both bad bad wife.\nFish forward may sure. Edge old camera from. Economy your watch.",
+        "telefono": "Put care so.",
+        "email": "stephencherry@example.net",
+        "propietario": 9,
+        "empleados": [
+            9,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 8,
+    "fields": {
+        "nombre": "Popular race effort language. Develop but already detail knowledge.",
+        "direccion": "Finish interesting bad when southern. Food hundred inside age.\nDifficult director figure blood long from. From investment four east. Someone hotel meet PM.",
+        "telefono": "Few treat.",
+        "email": "martinantonio@example.net",
+        "propietario": 5,
+        "empleados": [
+            1,
+            7,
+            8
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 9,
+    "fields": {
+        "nombre": "Feeling deep public Congress cold.\nVarious turn theory no. Friend draw road.",
+        "direccion": "Necessary capital thus sure. It tough kind paper effort upon government.\nSpecial into eye war sell past soon third. Memory parent city although.",
+        "telefono": "Seven.",
+        "email": "uberg@example.org",
+        "propietario": 3,
+        "empleados": [
+            1,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "farmacia.farmacia",
+    "pk": 10,
+    "fields": {
+        "nombre": "Level question wall until.",
+        "direccion": "Discover key suffer street. Scene suddenly modern player.\nPresent learn keep party. Social rise major option. While within administration language.\nEight might act very certain.",
+        "telefono": "Cover year.",
+        "email": "cjohnson@example.org",
+        "propietario": 6,
+        "empleados": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 1,
+    "fields": {
+        "proveedor": 2,
+        "coste_total": "0.00",
+        "observacion": "Way off yet month need. Across list article eight think out line remember.\nBecause smile range. Box within from memory.",
+        "fecha_pedido": "1974-08-30"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 2,
+    "fields": {
+        "proveedor": 8,
+        "coste_total": "0.52",
+        "observacion": "Memory part series prove. Assume in claim matter wrong lose election. Pattern manager five wind bill weight.",
+        "fecha_pedido": "2007-10-03"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 3,
+    "fields": {
+        "proveedor": 2,
+        "coste_total": "0.18",
+        "observacion": "Wind officer institution condition author hold. Believe girl modern law have build. Car parent outside receive oil or page industry.",
+        "fecha_pedido": "2012-12-10"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 4,
+    "fields": {
+        "proveedor": 7,
+        "coste_total": "0.41",
+        "observacion": "Social garden five expect least them. Almost song evidence late modern attack watch join. Election popular must pay kind.\nHigh customer parent. Structure short total during. Station peace modern.",
+        "fecha_pedido": "1975-02-25"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 5,
+    "fields": {
+        "proveedor": 6,
+        "coste_total": "0.36",
+        "observacion": "Space address structure. Part enjoy result decision among health or.\nInclude according continue speak list majority. Box government fund court gun even resource.",
+        "fecha_pedido": "1974-05-23"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 6,
+    "fields": {
+        "proveedor": 2,
+        "coste_total": "0.30",
+        "observacion": "Film would teacher tough instead traditional. Audience find ago price.\nOnly dinner available.\nCare spring behind look. Seek soldier gun million where.",
+        "fecha_pedido": "2004-04-29"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 7,
+    "fields": {
+        "proveedor": 4,
+        "coste_total": "0.22",
+        "observacion": "Where matter much green project fly often different. Travel development else. Body language thought tonight water house.",
+        "fecha_pedido": "1981-10-23"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 8,
+    "fields": {
+        "proveedor": 3,
+        "coste_total": "0.77",
+        "observacion": "Prevent threat north imagine blue budget. Develop money food hit someone.\nSpend although help write. Base organization would somebody hope as often. Job conference recently.",
+        "fecha_pedido": "2019-07-30"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 9,
+    "fields": {
+        "proveedor": 6,
+        "coste_total": "0.64",
+        "observacion": "Reduce pick society various morning service peace. High modern director available. Every though lead its yet consider discussion.",
+        "fecha_pedido": "1980-03-05"
+    }
+},
+{
+    "model": "farmacia.pedido",
+    "pk": 10,
+    "fields": {
+        "proveedor": 10,
+        "coste_total": "0.79",
+        "observacion": "Skin despite series continue seven account. Choose compare education bag know picture. Player offer author method.\nNote boy stand difference. Sign other open note section.",
+        "fecha_pedido": "1986-07-31"
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 1,
+    "fields": {
+        "medicamento": 7,
+        "cantidad_disponible": 15054,
+        "ultima_actualizacion": "1999-01-02T05:27:10.586",
+        "fecha_alta": "2024-05-06",
+        "fecha_baja": "1994-08-14",
+        "farmacia": 1
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 2,
+    "fields": {
+        "medicamento": 2,
+        "cantidad_disponible": 30965,
+        "ultima_actualizacion": "1982-08-27T05:47:47.036",
+        "fecha_alta": "2021-01-20",
+        "fecha_baja": "1985-04-08",
+        "farmacia": 9
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 3,
+    "fields": {
+        "medicamento": 9,
+        "cantidad_disponible": 12769,
+        "ultima_actualizacion": "1982-01-05T23:56:14.901",
+        "fecha_alta": "1993-12-27",
+        "fecha_baja": "2013-11-24",
+        "farmacia": 7
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 4,
+    "fields": {
+        "medicamento": 8,
+        "cantidad_disponible": 12463,
+        "ultima_actualizacion": "2018-07-17T06:48:38.264",
+        "fecha_alta": "1995-11-20",
+        "fecha_baja": "2016-10-09",
+        "farmacia": 10
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 5,
+    "fields": {
+        "medicamento": 6,
+        "cantidad_disponible": 13064,
+        "ultima_actualizacion": "1985-07-15T15:38:56.049",
+        "fecha_alta": "2022-11-07",
+        "fecha_baja": "2022-12-17",
+        "farmacia": 8
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 6,
+    "fields": {
+        "medicamento": 10,
+        "cantidad_disponible": 15612,
+        "ultima_actualizacion": "1994-04-17T01:15:33.856",
+        "fecha_alta": "1975-09-27",
+        "fecha_baja": "2023-02-17",
+        "farmacia": 5
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 7,
+    "fields": {
+        "medicamento": 4,
+        "cantidad_disponible": 12118,
+        "ultima_actualizacion": "1987-08-07T13:47:02.893",
+        "fecha_alta": "1996-10-14",
+        "fecha_baja": "2018-07-02",
+        "farmacia": 6
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 8,
+    "fields": {
+        "medicamento": 5,
+        "cantidad_disponible": 28003,
+        "ultima_actualizacion": "2015-11-03T15:02:01.788",
+        "fecha_alta": "2012-09-10",
+        "fecha_baja": "2015-02-26",
+        "farmacia": 2
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 9,
+    "fields": {
+        "medicamento": 3,
+        "cantidad_disponible": 30098,
+        "ultima_actualizacion": "1972-03-20T17:24:21.371",
+        "fecha_alta": "1994-12-04",
+        "fecha_baja": "1978-10-12",
+        "farmacia": 4
+    }
+},
+{
+    "model": "farmacia.inventario",
+    "pk": 10,
+    "fields": {
+        "medicamento": 1,
+        "cantidad_disponible": 19303,
+        "ultima_actualizacion": "2015-03-05T06:19:08.488",
+        "fecha_alta": "1999-12-02",
+        "fecha_baja": "2024-03-16",
+        "farmacia": 3
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 1,
+    "fields": {
+        "nombre": "Everyone nor another instead.",
+        "nombre_corto": "Them.",
+        "observacion": "Others anything recently loss say term read. Team bar meet long seat difference describe huge. Seat rock read everybody edge produce the hospital.",
+        "color": "Want test body according save. Whom term least.",
+        "medicamentos": [
+            9
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 2,
+    "fields": {
+        "nombre": "Study seek first poor sing.",
+        "nombre_corto": "Strong.",
+        "observacion": "Often although unit goal. Hotel organization second try mention security you.",
+        "color": "I knowledge see feel set read.",
+        "medicamentos": [
+            3,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 3,
+    "fields": {
+        "nombre": "Break stage form huge.",
+        "nombre_corto": "Same.",
+        "observacion": "Three who line pay cultural either. Model other summer product significant again enough. Traditional benefit themselves prevent.",
+        "color": "Ball enough move adult society purpose east.",
+        "medicamentos": [
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 4,
+    "fields": {
+        "nombre": "Since return at stage understand could.",
+        "nombre_corto": "Produce.",
+        "observacion": "Lawyer trial identify black mention. Them score finish.\nDeep smile respond along nature full. Research so officer member son. White central point beyond.\nResource teacher seat wish decade health.",
+        "color": "Six always source support budget member wish.",
+        "medicamentos": [
+            3,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 5,
+    "fields": {
+        "nombre": "Official total our not guy.",
+        "nombre_corto": "Small.",
+        "observacion": "Specific news site order cold hold. Down performance small nearly since argue drug my.\nWife expert good enough. Actually to bad.",
+        "color": "Too federal month however. Gas miss none.",
+        "medicamentos": [
+            3,
+            9
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 6,
+    "fields": {
+        "nombre": "Around company human book ask.",
+        "nombre_corto": "Moment.",
+        "observacion": "Main hundred approach style.\nSo reveal reality skill sing. Control hot try land water.\nRisk will tonight one before policy can food. Man nor face instead on organization. Move degree rise generation.",
+        "color": "Market lawyer career.",
+        "medicamentos": [
+            5,
+            9
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 7,
+    "fields": {
+        "nombre": "Just expect stock speak.",
+        "nombre_corto": "Within.",
+        "observacion": "Daughter democratic occur toward often member. Heart past past budget. Again why grow interesting wind when well.\nExperience deal wrong.",
+        "color": "Appear course give wear believe performance.",
+        "medicamentos": [
+            1
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 8,
+    "fields": {
+        "nombre": "Day actually of resource conference.",
+        "nombre_corto": "Late any.",
+        "observacion": "Study chance nature top indicate full majority. Give nothing learn. Them page edge will address.\nBag real away campaign tell.",
+        "color": "Speak yard certain talk.",
+        "medicamentos": [
+            2,
+            10
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 9,
+    "fields": {
+        "nombre": "Focus information capital common.",
+        "nombre_corto": "Majority.",
+        "observacion": "Safe human wish family degree work worry score. Hard use leave bit. Power he different fine theory.\nOf pass able. Maybe art important major organization claim beautiful fast.",
+        "color": "Increase region painting where.",
+        "medicamentos": [
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "farmacia.categoria",
+    "pk": 10,
+    "fields": {
+        "nombre": "Break two and be.",
+        "nombre_corto": "Several.",
+        "observacion": "Energy consider real expect stay.\nFederal similar give assume customer again. Behavior economy news home. Popular hit white away notice east. At wind anyone peace serve.",
+        "color": "Effort before view article.",
+        "medicamentos": [
+            1,
+            2,
+            6
+        ]
+    }
+}
+]
