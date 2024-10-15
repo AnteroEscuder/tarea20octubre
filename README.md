@@ -4,7 +4,7 @@ El proyecto representa el funcionamiento de una farmacia, simulando como sería 
 
 <br>
 
-# Esqueema base de datos Entidad Relación
+# Esquema base de datos Entidad Relación
 
 ![Imagen_base_datos](./assets/diagrama_entidad_relacion.png "Entidad Relación")
 
