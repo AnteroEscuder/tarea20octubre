@@ -17,7 +17,7 @@ El proyecto representa el funcionamiento de una farmacia, simulando como sería 
 Representa a los proveedores de medicamentos que surten la farmacia. Este modelo almacena la información de contacto de los proveedores, como su nombre, dirección, teléfono y correo electrónico.
 
 ```Python
-nombre = models.CharField(max_length=100)
+nombre = models.CharField(max_length=100, verbose_name="Nombre del proveedor", help_text="Nombre completo del proveedor")
 direccion = models.CharField(max_length=200)
 telefono = models.CharField(max_length=15)
 email = models.EmailField()
@@ -33,6 +33,7 @@ apellido = models.CharField(max_length=100)
 direccion = models.CharField(max_length=200)
 email = models.EmailField()
 telefono = models.CharField(max_length=15)
+frecuente = models.BooleanField(default=False)
 ```
 
 ## Medicamentos
@@ -40,12 +41,12 @@ telefono = models.CharField(max_length=15)
 Contiene los detalles de los medicamentos que vende la farmacia. Cada medicamento tiene un nombre, descripción, precio, cantidad en stock, fecha de caducidad, y está asociado a un proveedor específico.
 
 ```Python
-nombre = models.CharField(max_length=100)
-descripcion = models.TextField()
-precio = models.DecimalField(max_digits=10, decimal_places=2)
+nombre = models.CharField(max_length=100, db_column="medicamento_nombre")
+descripcion = models.TextField(db_comment="Descripción del medicamento", default="No hay descripción disponible")
+precio = models.DecimalField(max_digits=10, decimal_places=2, validators=[MinValueValidator(0.01)], db_index=True)
 stock = models.PositiveIntegerField()
 fecha_caducidad = models.DateField()
-proveedor = models.ForeignKey(Proveedor, on_delete=models.CASCADE)
+proveedor = models.ForeignKey(Proveedor, on_delete=models.CASCADE, editable=False)
 ```
 
 Representa las recetas médicas que los clientes presentan para comprar ciertos medicamentos. Cada receta está asociada a un cliente y contiene una descripción, el nombre de la compañía emisora, y las fechas de emisión y caducidad.
@@ -69,7 +70,9 @@ medicamentos = models.ManyToManyField(Medicamento)
 fecha_entrega = models.DateField(auto_now_add=True)
 cantidad = models.PositiveIntegerField()
 precio = models.DecimalField(max_digits=10, decimal_places=2)
-email_farmacia = models.EmailField()
+email_farmacia = models.EmailField(),
+recibo = models.CharField(max_length=100, unique_for_date="fecha_venta", unique_for_month="fecha_venta", unique_for_year="fecha_venta")
+
 ```
 
 ## Empleado
@@ -92,6 +95,7 @@ nombre = models.CharField(max_length=100)
 direccion = models.CharField(max_length=200)
 telefono = models.CharField(max_length=15)
 email = models.EmailField()
+url_web = models.URLField()
 propietario = models.OneToOneField(Empleado, on_delete=models.CASCADE)
 empleados = models.ManyToManyField(Empleado, related_name='farmacias')
 ```
@@ -118,6 +122,7 @@ cantidad_disponible = models.PositiveIntegerField()
 ultima_actualizacion = models.DateTimeField(auto_now=True)
 fecha_alta = models.DateField(auto_now_add=True)
 fecha_baja = models.DateField(blank=True, null=True)
+farmacia = models.OneToOneField(Farmacia, on_delete=models.CASCADE)
 ```
 
 ## Categoria
