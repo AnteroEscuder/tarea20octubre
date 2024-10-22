@@ -8,9 +8,6 @@ class Proveedor(models.Model):
     direccion = models.CharField(max_length=200)
     telefono = models.CharField(max_length=15)
     email = models.EmailField()
-
-    def __str__(self):
-        return self.nombre
     
 class Cliente(models.Model):
     nombre = models.CharField(max_length=100)
@@ -20,9 +17,6 @@ class Cliente(models.Model):
     telefono = models.CharField(max_length=15)
     frecuente = models.BooleanField(default=False)
 
-    def __str__(self):
-        return f"{self.nombre} {self.apellido}"
-
 class Medicamento(models.Model):
     nombre = models.CharField(max_length=100, db_column="medicamento_nombre")
     descripcion = models.TextField(db_comment="Descripción del medicamento", default="No hay descripción disponible")
@@ -30,9 +24,6 @@ class Medicamento(models.Model):
     stock = models.PositiveIntegerField()
     fecha_caducidad = models.DateField()
     proveedor = models.ForeignKey(Proveedor, on_delete=models.CASCADE, editable=False)
-
-    def __str__(self):
-        return self.nombre
     
 class Receta(models.Model):
     cliente = models.OneToOneField(Cliente, on_delete=models.CASCADE)
@@ -56,9 +47,6 @@ class Empleado (models.Model):
     cargo = models.CharField(max_length=50)
     sueldo = models.DecimalField(max_digits=10, decimal_places=2)
 
-    def __str__(self):
-        return f"{self.nombre} {self.apellido}"
-
 class Farmacia (models.Model):
     nombre = models.CharField(max_length=100)
     direccion = models.CharField(max_length=200)
@@ -67,32 +55,21 @@ class Farmacia (models.Model):
     url_web = models.URLField()
     propietario = models.OneToOneField(Empleado, on_delete=models.CASCADE)
     empleados = models.ManyToManyField(Empleado, related_name='farmacias')
-
-    def __str__(self):
-        return self.nombre
     
 class Pedido (models.Model):
     proveedor = models.ForeignKey(Proveedor, on_delete=models.CASCADE)
     coste_total = models.DecimalField(max_digits=10, decimal_places=2)
     observacion = models.TextField()
     fecha_pedido = models.DateField()
-    # medicamentos = models.ManyToManyField(Medicamento, through='PedidoMedicamento', related_name='pedidos_medicamentos')
+    medicamentos = models.ManyToManyField(Medicamento)
 
 class Inventario (models.Model):
-    medicamento = models.OneToOneField(Medicamento, on_delete=models.CASCADE)
+    medicamentos = models.ForeignKey(Medicamento, on_delete=models.CASCADE)
     cantidad_disponible = models.PositiveIntegerField()
     ultima_actualizacion = models.DateTimeField(auto_now=True)
     fecha_alta = models.DateField(auto_now_add=True)
     fecha_baja = models.DateField(blank=True, null=True)
     farmacia = models.OneToOneField(Farmacia, on_delete=models.CASCADE)
-
-# class PedidoMedicamento(models.Model):
-#     pedido = models.ForeignKey(Pedido, on_delete=models.CASCADE, related_name='pedido_medicamentos')
-#     medicamento = models.ForeignKey(Medicamento, on_delete=models.CASCADE, related_name='pedido_medicamentos')
-#     cantidad = models.PositiveIntegerField()
-#     precio_unitario = models.DecimalField(max_digits=10, decimal_places=2)
-#     fecha_vencimiento = models.DateField()
-#     observacion = models.TextField()
 
 class Categoria(models.Model):
     nombre = models.CharField(max_length=50)
